@@ -1,3 +1,5 @@
+// this was done recursively as a task
+
 function largestPrimeFactorOf(num){
 
     let array = [];

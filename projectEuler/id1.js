@@ -64,3 +64,16 @@ function sumOfMultiplesOf3And5(baseNum){
 }
 
 console.log(sumOfMultiplesOf3And5(1000)); //234168
+
+function usingLoop(limit){
+    let total = 0;
+    for(let i = 1 ; i < limit ; i++){
+        if(i%3 === 0 || i%5 === 0){
+            total += i;
+        }
+    }
+
+    return total;
+}
+
+console.log(usingLoop(1000));
