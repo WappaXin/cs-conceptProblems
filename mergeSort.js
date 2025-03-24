@@ -31,7 +31,7 @@ function merge(arrayA , arrayB){
             array.push(arrayA[i++]);
         }else if(arrayA[i] > arrayB[j]){
             array.push(arrayB[j++]);
-        }else if(arrayA[i] === arrayB[j]){
+        }else if(arrayA[i] == arrayB[j]){
             array.push(arrayA[i++]);
             array.push(arrayB[j++]);
         }
